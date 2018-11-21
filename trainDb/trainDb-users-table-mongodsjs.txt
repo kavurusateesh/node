@@ -1,0 +1,22 @@
+/////////// users collection //
+
+{
+    "_id" : ObjectId("5bf4d902c1894d3a24a854c7"),
+    "fullname" : "Satish Kavuru",
+    "salt" : "1028135063672",
+    "hashed_password" : "0fea83faa43ee9540c49d9ab4dd5510b6b0c40e0",
+    "email" : "kavurusateesh@gmail.com",
+    "phoneNumber" : "9160308050",
+    "status" : "Active",
+    "avatar" : {
+        "original" : ""
+    },
+    "role" : "admin",
+    "roles" : [],
+    "name" : {
+        "last" : "Kavuru",
+        "first" : "Satish"
+    },
+    "__v" : 0
+}
+
