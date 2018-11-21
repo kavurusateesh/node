@@ -1,0 +1,10 @@
+
+exports.show = function(req, res) {
+    User.findOne({ _id: req.params.id }).exec(function (err, user) {
+        if (err) {
+            res.failure(err)
+        } else {
+            res.json(user);
+        }
+    })
+}
